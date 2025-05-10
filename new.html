@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Invito al nostro Matrimonio</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            color: #5a5043;
+            background: url('sfondo.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Overlay bianco semitrasparente per contenuto */
+        header, nav, section, footer {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 10px 0 5px 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 20px 0;
+        }
+
+        header img {
+            max-width: 300px;
+            border-radius: 8px; /* leggermente smussato */
+            border: 4px solid #5a5043;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        nav {
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5a5043;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: 30px auto;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #d8cfc4;
+            padding-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        img.section-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* 🔽 Classe per ridurre l'immagine dei ristoranti */
+        .img-ristoranti {
+            max-width: 70%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="noi.jpg" alt="Foto degli sposi">
+        <h1>Daniele & Valeria</h1>
+        <p>Ci sposiamo! 5 Settembre 2025 a Marsala</p>
+    </header>
+
+    <nav>
+        <a href="#cerimonia">La Cerimonia</a>
+        <a href="#ricevimento">Il Ricevimento</a>
+        <a href="#marsala">Scopri Marsala</a>
+        <a href="#info">Info Utili</a>
+    </nav>
+
+    <section id="cerimonia">
+        <h2>La Cerimonia</h2>
+        <p>Ci uniremo in matrimonio presso il <strong>Santuario Maria Ss Addolorata di Marsala</strong> alle ore 15:30. Un luogo ricco di storia e bellezza, perfetto per celebrare il nostro giorno speciale insieme a voi.</p>
+        <img src="chiesa.jpg" alt="Chiesa Madre di Marsala" class="section-image">
+    </section>
+
+    <section id="ricevimento">
+        <h2>Il Ricevimento</h2>
+        <p>Dopo la cerimonia, vi aspettiamo per festeggiare alla <strong>Villa Favorita</strong>, una delle ville storiche più belle della Sicilia, circondata da un magnifico parco con palme, agrumi e alberi secolari.</p>
+        <img src="favorita.jpg" alt="Baglio Oneto" class="section-image">
+    </section>
+
+    <section id="marsala">
+        <h2>Scopri Marsala e dintorni</h2>
+        <p>Approfittate del weekend per esplorare le meraviglie della città:</p>
+        <ul>
+            <li><strong>Centro Storico</strong>: stradine affascinanti, chiese e palazzi antichi.</li>
+            <li><strong>Le Cantine</strong>: degustazioni dei famosi vini delle cantine Marsalesi.</li>
+            <li><strong>Lo Stagnone</strong>: saline, mulini a vento e l’isola di Mozia.</li>
+            <li><strong>Spiagge</strong>: relax al mare e tramonti indimenticabili.</li>
+            <li><strong>Isole Egadi</strong>: un arcipelago incantato al largo della costa occidentale della Sicilia, formato da tre isole principali: Favignana, Levanzo e Marettimo, facilmente raggiungibile da Marsala.</li>
+            <li><strong>Erice</strong>: uno dei borghi più affascinanti e suggestivi della Sicilia, sospeso quasi tra cielo e mare.</li>
+            <li><strong>Riserva dello Zingaro</strong>: uno dei tesori naturalistici più preziosi della Sicilia, un tratto di costa incontaminata tra Scopello e San Vito Lo Capo.</li>
+        </ul>
+        <img src="marsala.jpg" alt="Veduta di Marsala" class="section-image">
+    </section>
+
+    <section id="ristoranti">
+        <h2>Ristoranti e Locali Consigliati</h2>
+        <p>Durante il vostro soggiorno a Marsala, vi consigliamo alcuni luoghi speciali dove mangiare bene o godervi un ottimo aperitivo:</p>
+
+        <h3>🍽️ Dove Mangiare</h3>
+        <ul>
+            <li><strong>Parrinello - Pescheria e Cucina</strong> – Pesce freschissimo e cucina marinara autentica.</li>
+            <li><strong>O' Scià Ristorante</strong> – Piatti tradizionali rivisitati in chiave moderna.</li>
+            <li><strong>Osteria Il Gallo e l’Innamorata</strong> – Atmosfera romantica con vista sul mare.</li>
+        </ul>
+
+        <h3>🍸 Aperitivo o Dopocena</h3>
+        <ul>
+            <li><strong>Mamma Caura</strong> – Cocktail con vista mozzafiato sulle saline al tramonto.</li>
+            <li><strong>Anita Lounge Bar</strong> – Musica dal vivo e drink creativi in pieno centro.</li>
+            <li><strong>Antico Mercato</strong> – Spazio storico con cibo, vino e musica.</li>
+            <li><strong>Peola Stagnone</strong> – Aperitivi rilassati sul mare al tramonto.</li>
+        </ul>
+
+        
+    </section>
+
+    <section id="info">
+        <h2>Info Utili</h2>
+        <p>Per chi arriva da fuori città, consigliamo di prenotare per tempo. Se avete bisogno di aiuto per l’organizzazione del viaggio o per i dettagli sul soggiorno, contattateci!</p>
+    </section>
+
+    <footer>
+        <p>Con amore, Daniele & Valeria | <em>Non vediamo l’ora di festeggiare con voi!</em></p>
+    </footer>
+</body>
+</html>
+
